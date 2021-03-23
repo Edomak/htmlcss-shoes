@@ -25,13 +25,13 @@ nav {
 }
 
 .menu li {
-    width: 40px;
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    width: 50px;
     background-color: white;
     border-radius: 50%;
     font-weight: bolder;
-    margin: 20px;
-    display: inline-block;
-    text-align: center;
     font-size: 30px;
 }
 
@@ -39,10 +39,10 @@ nav {
     cursor: pointer;
 }
 
-menu a {
+.menu li > a {
     display: inline-block;
+    color: black;
     text-decoration: none;
-    padding: 20px;
 }
 
 
